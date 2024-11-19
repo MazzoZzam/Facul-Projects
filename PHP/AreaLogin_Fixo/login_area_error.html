@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> Área de Login </title>
+</head>
+<body>
+    <style>
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            background-color: #c3c3c3;
+            color: #333333;
+            text-align: center;
+        }
+
+        .info {
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            margin-top: auto;
+        }
+    </style>
+    
+    <form method="post" action="login.php">
+        
+        <h1>SUAS INFORMAÇÕES ESTÃO INCORRETAS
+        <h3>Por favor, Insira suas informações CORRETAMENTE</h3>
+
+        <div class="info">
+            <label for="usuario"></label> <br>
+            <input type="text" name="usuario" maxlength="20" required placeholder="Usuário">
+        </div>
+
+        <div class="info">
+            <label for="senha"></label> <br>
+            <input type="password" name="senha" required placeholder="Senha">
+        </div>
+
+        <div class="info">
+            <input type="submit" value="ENVIAR">
+        </div>
+    </form>
+</body>
+</html>

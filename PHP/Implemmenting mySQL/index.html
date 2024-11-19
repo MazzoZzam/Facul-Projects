@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form action="conn.php" method="POST">
+        <Label name="username">Nome de Usuário: </Label>
+        <input name="username" type="text" required maxlength="20">
+
+        <label name="password"> Senha: </label>
+        <input name="password" type="password" required>
+
+        <div>
+            <button type="submit" value="CADASTRAR">Cadastrar</button>
+        </div>
+    </form>
+    
+    <br>
+
+    <table border="1">
+       <tr>
+            <th> ID </th>
+            <th> Nome </th>
+            <th> Senha </th>
+       </tr>
+    </table>
+</body>
+</html>
